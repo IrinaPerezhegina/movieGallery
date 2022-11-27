@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 235px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+.title{
+    font-size: 18px;
+    max-width: 235px;
+    text-align: center;
+
+}
+
+.like{
+   height: 30px; 
+   width: 30px;
+   cursor: pointer;
+}
+
+.likedBtn{
+    border: none;
+    background: transparent;
+}
